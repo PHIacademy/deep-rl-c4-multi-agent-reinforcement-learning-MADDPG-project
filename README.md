@@ -8,8 +8,6 @@ For this project, two agents are trained to control rackets and bounce a ball ov
 | --- | --- |
 | [![Random Agents](./Training-Results/random_agent.gif)](./Training-Results/random_agent.gif) | [![Trained Agents](./Training-Results/trained_agent.gif)](./Training-Results/trained_agent.gif) |
 
-![Score plot](./Training-Results/score_plot.png)
-
 If an agent hits the ball over the net, it receives a reward of `+0.1`. If an agent lets the ball hit the ground, or hits the ball out of bounds, it receives a reward of `-0.01`. Thus, the goal of each agent is to keep the ball in play.
 
 **State space**: 8 variables per agent, corresponding to the position and velocity of the ball and racket (each agent receives its own local observation).
