@@ -75,7 +75,7 @@ Both networks use the "fan-in" uniform initialization scheme from the original D
 
 ### Plot of Rewards
 
-[![MADDPG Training Progress](./Training-Results/score_plot.png)](./Training-Results/score_plot.png)
+<img src="Training-Results/score_plot.png" alt="DDPG Training Progress" width="600">
 
 The blue line shows the raw score for each episode (max over both agents); the orange line shows the rolling 100-episode average; the dashed red line marks the target score of +0.5.
 
