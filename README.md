@@ -154,7 +154,7 @@ maddpg.load(path_prefix='checkpoint')
 
 The agents solved the environment (average score ≥ +0.5 over 100 consecutive episodes, after taking the max over both agents) in **2502 episodes**, reaching a final rolling average of **0.511**. See [`score_plot.png`](./Training-Results/score_plot.png) and Section 6 of [`Tennis_workspace_version_solved.ipynb`](./Tennis_workspace_version_solved.ipynb) for the full training curve.
 
-Running the trained agents greedily (no exploration noise) over 5 evaluation episodes (Section 7) achieved an **average score of 1.92**, well above the +0.5 solve threshold.
+Running the trained agents greedily (no exploration noise) over 5 evaluation episodes (Section 7) achieved an **average score of 1.74**, well above the +0.5 solve threshold.
 
 ---
 
