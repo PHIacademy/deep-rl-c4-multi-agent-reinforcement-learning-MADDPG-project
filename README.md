@@ -111,9 +111,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 | [`checkpoint_actor_agent1.pth`](./checkpoint_actor_agent1.pth) | Saved local Actor weights for agent 1 |
 | [`checkpoint_critic_agent0.pth`](./checkpoint_critic_agent0.pth) | Saved local Critic weights for agent 0 |
 | [`checkpoint_critic_agent1.pth`](./checkpoint_critic_agent1.pth) | Saved local Critic weights for agent 1 |
-| [`Training-Results/score_plot.png`](./Training-Results/score_plot.png) | Plot of score per episode and rolling 100-episode average across training |
-| [`Training-Results/random_agent.gif`](./Training-Results/random_agent.gif) | Recording of two untrained agents selecting actions randomly |
-| [`Training-Results/trained_agent.gif`](./Training-Results/trained_agent.gif) | Recording of the trained agents rallying the ball back and forth |
+| [`Report.md`](./Report.md) | Learning algorithm, hyperparameters, network architecture, rewards plot, and ideas for future work |
 
 ---
 
